@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Silkscreen:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ewert&display=swap');
+
+
+.App {
+  text-align: center;
+}
+
+form{
+  display: inline-block;
+  background-color: #A0D683;
+  padding: 20px;
+  box-shadow: 10px 10px 10px 05px gray;
+  
+}
+form label{
+  display: inline-block;
+  width: 100px;
+  font-family: "Merienda", serif;
+}
+form div{
+  margin: 15px;  
+}
+span{
+  display: inline-block;
+  width: 75px;
+}
+.resultLabel{
+  width: auto;
+  font-family: "Merienda", serif;
+}
+form label{
+  display: inline-block;
+  width: 100px;
+}
+.legendTitle{
+ 
+  font-family: "Ewert", serif;
+  font-size: 20px;
+  
+}
+.myButton{
+  background-color: rgb(49, 49, 248); 
+      color: white;          
+      border: none;          
+      padding: 10px 20px;    
+      border-radius: 5px;    
+      cursor: pointer;       
+}
+.myButton:hover {
+  background-color: darkblue; 
+}
